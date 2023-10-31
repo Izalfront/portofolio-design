@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="src/input.css" />
+    <title>portofolio</title>
+  </head>
+  <body class="bg-darkmode">
+    <!-- navbar start -->
+    <header class="bg-darkmodelll absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-semibold text-lg text-primary block py-6">Starflight</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition origin-top-left duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition origin-bottom-left duration-300 ease-in-out"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-darkmodelll shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="flex text-base text-white py-2 mx-8 group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="flex text-base text-white py-2 mx-8 group-hover:text-primary">Tentang saya</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="flex text-base text-white py-2 mx-8 group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="flex text-base text-white py-2 mx-8 group-hover:text-primary">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar end -->
+    <!-- hero section start -->
+    <section id="home" class="pt-36 ml-3">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-medium text-primary md:text-xl">Halo semua saya <span class="text-4xl font-semibold block text-emerald-200 mt-1 lg:text-4xl mb-1">Starflight</span></h1>
+            <h2 class="font-medium mb-5 text-lg text-white">UI/UX Designer | Front-End Web Developer</h2>
+            <p class="font-medium mb-10 leading-relaxed text-slate-300 md:text-lg">Saya menyukai desain tampilan yang simpel dan mudah digunakan <span class="block">oleh user dan developer</span></p>
+            <a href="#contact" class="font-medium text-white bg-emerald-500 px-6 py-3 rounded-full hover:bg-emerald-300 hover:bg-opacity-100 transtion duration-500 ease-in-out">Hubungi saya</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img src="img/diri.png" alt="" class="max-w-full mx-auto z-10" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- about section start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-emerald-300 mb-3">tentang saya</h4>
+            <h2 class="font-bold text-xl mb-2 text-primary max-w-md lg:text-4xl">Yuk buat tugas web dengan saya</h2>
+            <p class="font-medium text-base text-slate-300">Harga yang Kompetitif: Kami menawarkan harga yang kompetitif untuk layanan pembuatan web yang berkualitas tinggi.</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-semibold text-emerald-400 mb-3 text-xl lg:text-3xl lg:pt-8">Mari kunjungi sosial media saya</h3>
+            <p class="font-medium text-base text-slate-300 mb-6">
+              Mari terhubung dan menjalin hubungan yang erat dengan kami melalui sosial media, di mana kami akan memberikan konten bermanfaat, informasi terkini, serta interaksi yang ramah dan menyenangkan.
+            </p>
+            <div class="flex items-center">
+              <!-- icon instagram -->
+              <a
+                href="https://instagram.com/starflight_txt?igshid=MzNlNGNkZWQ4Mg=="
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- icon tiktok -->
+              <a
+                href="https://www.tiktok.com/@dimstarflight?_t=8e3nRA66KdG&_r=1"
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+              <!-- icon linkedin -->
+              <a
+                href="https://www.linkedin.com/in/rizal-wahyudi-448470241"
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+    <!-- portfolio section start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-darkmodell">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary md:text-3xl pb-3">Portfolio</h4>
+            <h2 class="font-bold text-white text-3xl mb-4 sm:text-2xl lg:text-5xl">Project UI/UX Design</h2>
+            <p class="text-slate-300 font-medium md:text-lg">Dengan pengalaman dalam desain UI/UX web dan keahlian dalam website design front-end, Siap menghasilkan tampilan web yang menawan dan fungsional untuk kebutuhan bisnis Anda.</p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/1.png" alt="homepagegame" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Home page Game</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Desain Home page Game yang keren dengan mode dark dan light yang memukau.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/jSXGvFh0ilN0YFy4ODydJm/Web-Store?page-id=0%3A1&type=design&node-id=30-241&viewport=380%2C347%2C0.09&t=DYH9N2FYMJDbRafq-1&scaling=contain&starting-point-node-id=3%3A2&show-proto-sidebar=1&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/2.png" alt="Banjarmasin-Travel" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Redesain Banjarmasin-Travel</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Redesain Banjarmasin-Travel agar pengguna lebih mudah dan nyaman dalam penggunaannya.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/caDnl2CpYIdG3TVy0srNUy/redesain-banjarmasin-travel.com?page-id=0%3A1&type=design&node-id=20-15&viewport=-421%2C812%2C0.07&t=hxxllKn43r5A717u-1&scaling=min-zoom&starting-point-node-id=20%3A15&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/3.png" alt="tokokamera" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Toko Kamera Store lensiD</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Desain website Toko Kamera lensiD yang menarik untuk memudahkan pembelian dan penjelajahan produk.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/Y773wTlgUjpyveqmCJczwy/toko-kamera?page-id=0%3A1&type=design&node-id=2-5&viewport=148%2C301%2C0.24&t=nXC3cR20YtUwpWJI-1&scaling=scale-down&starting-point-node-id=2%3A5&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/4.png" alt="onlinecourse" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Travel.com</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Desain Travel.com yang intuitif dan nyaman untuk menjelajah destinasi impian dengan mudah.</p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/5.png" alt="onlinecourse" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Poliban app</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Poliban app, desain aplikasi pintar untuk kemudahan mahasiswa dalam proses perkuliahan mereka.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/ckOykEjdFgV5fRgbZeUsoZ/app-poliban?page-id=0%3A1&type=design&node-id=145-2&viewport=558%2C166%2C0.11&t=dORdP1FIoWQmglrS-1&scaling=scale-down&starting-point-node-id=145%3A2&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/6.png" alt="onlinecourse" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">JOGAS ( Joki Tugas ) app</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">JOGAS (Joki Tugas) app, desain aplikasi untuk mempertemukan penjoki dan pelanggan dengan mudah dan praktis.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/CIrvmFfwmI9GIAiyENbxeJ/jogas?page-id=0%3A1&type=design&node-id=1-3&viewport=340%2C309%2C0.1&t=oez5uCj0VSXWugmo-1&scaling=scale-down&starting-point-node-id=1%3A3&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/7.png" alt="onlinecourse" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Mobile Film</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Mobile Film, desain aplikasi untuk pengalaman menonton film yang mudah dan intuitif bagi konsumen.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/pymA3W5mizEALr8RydGzy3/mobile-film?page-id=0%3A1&type=design&node-id=25-153&viewport=213%2C200%2C0.29&t=EX63v69a9gtPvW9O-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="border border-slate-500 rounded-md shadow-md overflow-hidden px-3 py-3">
+              <img class="rounded-md" src="img/portfolio/8.png" alt="onlinecourse" width="w-full" />
+              <h3 class="font-semibold text-xl text-primary mt-5 mb-3 sm:text-2xl lg:text-2xl">Design Portfolio</h3>
+              <p class="font-medium text-base text-slate-300 md:text-lg">Design Portfolio, website yang menampilkan portfolio profesional dengan desain yang menarik dan elegan.</p>
+              <br />
+              <a
+                class="text-primary"
+                target="_blank"
+                href="https://www.figma.com/proto/WC47evdQZMxffbBo2CAdXW/cv-portofolio?page-id=0%3A1&type=design&node-id=1-2&viewport=157%2C258%2C0.14&t=Sb3yOe4qXkqmVL7e-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design"
+                >Link Prototype</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+    <!-- Clients section start -->
+    <section id="clients" class="pt-24 pb-32 bg-darkmodelll">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary md:text-2xl pb-3">Clients</h4>
+            <h2 class="sm:text-4xl lg:text-3xl font-bold text-slate-200 text-3xl mb-4">Yang pernah bekerjasama</h2>
+            <p class="text-slate-300 font-medium md:text-lg">Klien-klien saya yang pernah bekerjasama dengan kami.</p>
+          </div>
+        </div>
+
+        <!-- <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <svg class="max-w-[120px] mx-4 py-4 lg:mx-6 xl:mx-8 fill-current text-white sm:max-[20px] opacity-50 hover:text-emerald-200 hover:opacity-100" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>CodinGame</title>
+              <path
+                d="M1.025 11.893c-.1.293-.07.561.009.67.078.11.223.26.55.272.327.012.697-.167.697-.167l-.136.78c-.008.008-.4.138-.88.134-.661-.004-1.321-.317-1.261-1.252.006-.081.053-.398.128-.573a1.8 1.8 0 0 1 1.105-1.073c.67-.236 1.39-.016 1.39-.016l-.141.817s-.247-.203-.755-.154a1.055 1.055 0 0 0-.323.106.853.853 0 0 0-.383.456zm3.98.594c-.08.479-.446 1.097-1.397 1.097-.951 0-1.102-.618-1.016-1.097.217-1.134 1.394-1.077 1.394-1.077s1.195-.057 1.02 1.077zm-.887-.277c-.043-.175-.241-.169-.241-.169v.001s-.213-.017-.33.21c-.136.314-.075.514-.07.532.043.175.24.169.24.169v-.001s.214.017.33-.21c.136-.314.075-.514.07-.532zm3.827-1.747l-.534 3.07h-.868l.043-.245a.84.84 0 0 1-.66.3c-.527 0-.813-.395-.707-1.003.132-.76.65-1.2 1.138-1.2.234 0 .411.099.512.275v-.002l.208-1.195zm-1.43 1.577c-.205-.004-.36.242-.402.48-.04.238-.005.427.244.43.15 0 .326-.088.394-.43.028-.163.05-.48-.236-.48zm3.554-.556s-.259-.174-.698 0c-.189.073-.374.308-.374.308l.058-.335h-.867l-.26 1.493h.87l.1-.573.002-.019c.014-.071.078-.318.305-.318.265 0 .18.334.18.334l-.198 1.159h.866l.237-1.363c.09-.525-.22-.686-.22-.686zm-1.367-.338c.22 0 .398-.156.398-.349 0-.193-.178-.349-.398-.349-.22 0-.398.156-.398.35 0 .191.178.348.398.348zm3.723.146c.605 0 .818.158.818.158l.134-.768c-.405-.102-2.343-.479-2.782 1.463-.264 1.52 1.343 1.438 1.343 1.438s.634 0 1.176-.244l.189-1.09-.885-.003-.1.6s-.55.147-.753-.265c-.077-.152-.025-.449-.025-.449s.117-.84.885-.84zm3.21 1.032l-.21 1.209h-.788l.055-.315s-.26.366-.706.366c-.65 0-.52-.655-.52-.655s.053-.561.752-.679l.646-.071s.079-.241-.303-.241-.763.207-.763.207l.1-.577s.516-.187.995-.163c1.01.005.742.919.742.919zm-.84.258s-.158.033-.3.045c-.225.034-.253.182-.257.203-.038.22.196.19.196.19s.248.009.338-.31zm4.29-1.178c-.512 0-.766.364-.766.364s-.098-.364-.57-.364c-.471 0-.756.376-.756.376l.056-.321h-.87l-.361 2.074h.87l.209-1.201s.07-.293.303-.293c.232 0 .176.297.176.297l-.208 1.197h.872l.207-1.193s.058-.301.301-.301c.244 0 .174.309.174.309l-.21 1.184h.878l.241-1.388c0 .001.133-.74-.546-.74zm4.414-.417c0 .02.01.297-.483.382-.858.11-.96.575-.97.63-.012.055.005.163-.032.35a50.196 50.196 0 0 0-.06.394H20.62s.041.293.412.293.63-.116.63-.116l-.087.536s-.26.134-.828.134c-.09 0-1.115-.002-.926-1.091.091-.524.557-1.095 1.368-1.095.38-.002.4.133.767.133.31-.008.57-.305.57-.305s.094-.15.17-.32c.06-.082.168-.258.514-.222.29.053.29.277.29.297zm-2.47.946c-.27 0-.333.357-.333.357h.53s.074-.357-.197-.357zm2.792-1.523a.179.179 0 1 0 0 .358.179.179 0 0 0 0-.358z"
+              />
+            </svg>
+            <svg class="max-w-[80px] mx-4 py-4 lg:mx-6 xl:mx-8 fill-current text-white sm:max-[20px] opacity-50 hover:text-emerald-200 hover:opacity-100" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Framer</title>
+              <path d="M4 0h16v8h-8zM4 8h8l8 8H4zM4 16h8v8z" />
+            </svg>
+            <svg class="max-w-[80px] mx-4 py-4 lg:mx-6 xl:mx-8 fill-current text-white sm:max-[20px] opacity-50 hover:text-emerald-200 hover:opacity-100" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Vectorworks</title>
+              <path
+                d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.725c-5.925 0-10.725-4.8-10.725-10.725S6.075 1.275 12 1.275 22.725 6.075 22.725 12 17.925 22.725 12 22.725zM8.775 7.5h-2.25c-.15 0-.208.086-.15.225l4.425 10.65c.04.098.15.225.3.225h1.95c.15 0 .206-.086.15-.225l-4.35-10.8c-.028-.07-.035-.075-.075-.075zm8.7 0h-2.25c-.075 0-.13.023-.15.075L13.35 11.85a.6.6 0 0 0 0 .375l1.05 2.55c.075.15.225.15.3 0l2.925-7.05c.057-.139 0-.225-.15-.225z"
+              />
+            </svg>
+            <svg class="max-w-[80px] mx-4 py-4 lg:mx-6 xl:mx-8 fill-current text-white sm:max-[20px] opacity-50 hover:text-emerald-200 hover:opacity-100" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>YourTravel.TV</title>
+              <path
+                d="M2.609 6.266c.183-.246.424-.579.617-.817.578-.656.653-.742 1.179-1.227.156-.128.341-.282.522-.427-1.335 1.13-1.505 2.381-.28 3.154-.002 0-.002 0-.002.002 1.713 1.032 5.467.809 8.429-.513 2.869-1.28 3.928-3.111 2.512-4.199-1.243-.233-2.725-.26-4.293-.05l-.163-.269.135-.446c.922-.083 1.798-.063 2.554.066.183.031.424.084.604.122.348.085.537.136.764.209.232.069.43.138.775.266.338.133.484.193.755.328a8.308 8.308 0 01.883.469c2.256 1.419.853 4.008-3.128 5.782-3.97 1.768-9.029 2.046-11.296.644-.001-.002-.004-.004-.01-.006h.004c-1.238-.784-1.368-1.922-.561-3.088zm10.329 9.92l-.032-1.594-1.133-1.26c-3.743.848-7.422.666-9.468-.539-.007-.008-.024-.016-.031-.024C1.116 12.056.83 11.136.917 10.136c-.271 1.463-.293 1.991-.254 3.243.048.784.501 1.507 1.412 2.077l.007.008c2.181 1.356 6.725 1.65 10.856.722zm4.725 1.825c-5.283 2.119-11.895 2.244-14.767.283a8.195 8.195 0 001.252 2.098c2.636 1.8 8.705 1.685 13.552-.26 2.837-1.137 4.627-2.65 5.097-4.068l.132-.427c.313-1.082.372-1.983.422-2.785-.057 1.741-2.108 3.721-5.688 5.159zM6.001 22.092c.166.158.688.799 3.333 1.507.715.158 2.515.665 5.84-.072l.02-.303-.263-.412c-3.085.73-6.512.486-8.93-.72zm7.634-12.609l2.809 2.129s.601.433.034.737c-.565.301-2.016 1.038-2.016 1.038l-1.433-.535-.719.32 1.268 1.101.01 1.713.745-.331.494-1.447s1.517-.584 2.119-.804c.605-.215.524.521.524.521l-.298 3.511.99-.44 1.63-4.737s.864-.42 1.472-.789c.607-.369.815-.981.815-.981s-.592-.255-1.274-.05c-.682.203-1.571.565-1.571.565l-4.612-1.959-.987.438zM7.692 2.747l1.907 1.519.521-.078-1.038-1.363s-.226-.282.078-.349c.306-.068 1.08-.226 1.08-.226l.582.465.392-.058-.444-.706.234-.783-.379.055-.449.596s-.788.074-1.098.1c-.312.024-.178-.311-.178-.311L9.498 0l-.524.077-1.38 2.009s-.46.084-.793.179c-.334.094-.51.352-.51.352s.245.198.59.191c.348-.007.811-.061.811-.061zm9.425 19.518l-1.234-.645-.284.099.731.654s.156.133-.008.204c-.164.07-.582.242-.582.242l-.345-.154-.205.074.287.306-.028.447.214-.074.16-.363s.434-.129.607-.175c.172-.047.133.155.133.155L16.4 24l.285-.099.559-1.276s.247-.097.424-.186.247-.253.247-.253-.157-.086-.351-.043c-.195.041-.447.122-.447.122z"
+              />
+            </svg>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- Clients section end -->
+    <!-- Contact section start -->
+    <section id="contact" class="pt-24 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold text-primary text-2xl mb-4 sm:text-2xl">Contact</h4>
+            <h2 class="font-bold text-slate-200 text-3xl mb-4 sm:text-3xl">Hubungi Saya</h2>
+            <p class="font-medium text-md text-slate-300 md:text-lg">Hubungi Saya sekarang untuk memulai proyek Anda!</p>
+          </div>
+          <form action="https://formspree.io/f/xbjvlpyb" method="post">
+            <div class="w-full lg:w-2/3 lg:m-auto">
+              <div class="w-full mb-8 px-4">
+                <label for="name" class="pl-2 text-base font-semibold text-emerald-400">Nama</label>
+                <input type="text" id="name" class="w-full bg-slate-200 py-3 text-dark rounded-md focus:ring-1 focus:outline-none focus:border-primary" />
+              </div>
+              <div class="w-full mb-8 px-4">
+                <label for="email" class="pl-2 text-base font-semibold text-emerald-400">Email</label>
+                <input type="email" id="email" class="w-full bg-slate-200 py-3 text-dark rounded-md focus:ring-1 focus:outline-none focus:border-primary" />
+              </div>
+              <div class="w-full mb-8 px-4">
+                <label for="message" class="pl-2 text-base font-semibold text-emerald-400">Pesan</label>
+                <textarea name="message" id="message" cols="30" rows="10" type="text" id="message" class="w-full bg-slate-200 py-3 text-dark rounded-md focus:ring-1 focus:outline-none focus:border-primary"> </textarea>
+              </div>
+              <div class="w-full mb-8 px-4">
+                <button class="bg-emerald-500 w-full py-2 rounded-full font-medium text-white hover:opacity-80 hover:shadow-lg transtion duration-500 ease-in-out">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+    <!-- Footer section start -->
+    <footer class="bg-darkmodelll pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-3 md:w1/3">Halal Joki</h2>
+            <h3 class="font-medium text-1xl mb-3 text-white">Hubungi kami :</h3>
+            <p class="text-base text-slate-300 mb-2">halaljoki@gmail.com</p>
+            <p class="text-base text-slate-300">Kalimantan Selatan</p>
+            <p class="text-base text-slate-300">banjarmasin</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-white mb-8 text-2xl">Alat yang digunakan :</h3>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Laravel 9</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Vue Js 3</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Tailwind 3.3.3</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Boostrap 5</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-white mb-8 text-2xl">Kemampuan lainnya :</h3>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Editor Video ( Adobe Premiere Pro all version )</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Videographer</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Graphic Design</p>
+            <p class="mb-3 text-base text-slate-300 hover:text-primary">Motion Graphic</p>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="w-full px-4 lg:w-full">
+            <p class="font-medium text-base text-slate-300 mb-6 text-center">Mari kunjungi sosial media saya dan mari kita bangun hubungan, berkolaborasi, dan menciptakan website yang luar biasa bersama-sama!</p>
+            <div class="flex items-center justify-center mb-5">
+              <!-- icon instagram -->
+              <a
+                href="https://instagram.com/starflight_txt?igshid=MzNlNGNkZWQ4Mg=="
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- icon tiktok -->
+              <a
+                href="https://www.tiktok.com/@dimstarflight?_t=8e3nRA66KdG&_r=1"
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+              <!-- icon linkedin -->
+              <a
+                href="https://www.linkedin.com/in/rizal-wahyudi-448470241"
+                target="_blank"
+                class="text-slate-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-secondary hover:border-primary hover:bg-primary hover:text-white transtion duration-300 ease-in-out"
+              >
+                <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <p class="font-medium text-sm text-slate-400 text-center pt-3">Dibuat oleh Muhammad Rizal Wahyudi, menggunakan Tailwind CSS 3.3.3</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
