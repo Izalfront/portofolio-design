@@ -8,12 +8,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#6ee7b7',
+        primary: '#6CCC93',
+        primary2: '#28603D',
         dark: '#082f49',
-        secondary: '#64748b',
-        darkmode: '#343540',
-        darkmodell: '#444653',
-        darkmodelll: '#202123',
+        secondary: '#E6E6E6',
+        darkmode: '#121212',
+        darkmode2: '#242424',
+        darkmode3: '#202123',
       },
       screens: {
         '2xl': '1320px',
